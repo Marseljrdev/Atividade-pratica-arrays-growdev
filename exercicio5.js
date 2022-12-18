@@ -6,6 +6,8 @@
 let vetorNumeros = [14, 29, 10, 25, 47, 15, 87, 76, 39, 11, 8, 12, 51, 62, 88];
 let valor = prompt("Digite um numero: ");
 
+let resullFinal = verificacao(vetorNumeros, valor);
+
 function verificacao(array, valor){
 
     for(let index = 0; index < array.length; index++){
@@ -14,11 +16,16 @@ function verificacao(array, valor){
         }
         
     }
-    return 'False';
+    return 'Falso';
 
 }
 
-console.log(verificacao(vetorNumeros, valor));
+console.log(resullFinal);
+
+
+
+
+
 
 
 

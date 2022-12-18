@@ -12,11 +12,11 @@ function verificacao(array, valor){
 
     for(let index = 0; index < array.length; index++){
         if(array[index] == valor){
-            return 'Verdadeiro';
+            return console.log('Verdadeiro numero esta na lista');
         }
         
     }
-    return 'Falso';
+    return console.log('Falso o numero nao esta na lista');
 
 }
 
